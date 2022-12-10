@@ -1,0 +1,55 @@
+body,
+html,
+.wrapper {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+}
+h1{
+    font-size:250%;
+    z-index: 1;
+    
+}
+
+
+.wrapper {
+    display: flex;
+    gap: 100px;
+    flex-direction:row;
+    
+}
+
+body {
+    margin: 0;
+}
+
+.one {
+    margin-top: 50px;
+    margin-left: 3%;
+    flex: 1;
+    color: gray;
+    z-index: -1;
+
+
+}
+
+.two {
+    margin-top: 250px;
+    flex: 1;
+    color: rgb(132, 109, 109);
+    flex-flow: wrap;
+    z-index: -1;
+
+
+
+
+}
+
+.three {
+    margin-top: 50px;
+
+    flex: 1;
+    color: rgb(119, 179, 179);
+z-index: -1;
+}

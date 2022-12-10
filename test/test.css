@@ -1,0 +1,75 @@
+body,
+html,
+.wrapper {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+
+}
+
+body {
+    margin:
+
+
+        auto;
+}
+
+div#title {
+    display: flex;
+
+
+
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    z-index: 2;
+    font-size: 85px;
+    letter-spacing: 25px;
+    text-align: center;
+}
+
+.wrapper {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    gap: 150px;
+    flex-direction: initial;
+}
+
+.sea-block {
+    position: relative;
+    width: 220px;
+    margin-top: 100px;
+    /* color: gray; */
+}
+
+.mountains-block {
+    position: relative;
+    width: 220px;
+    margin-top: 150px;
+    /* color: rgb(132, 109, 109); */
+}
+
+.desert-block {
+    position: relative;
+    width: 220px;
+    margin-top: 100px;
+    /* color: rgb(119, 179, 179); */
+}
+
+img {
+    width: inherit;
+    height: 300px;
+    object-fit: cover;
+}
+
+p {
+    width: inherit;
+}
+
+a {
+    font-weight: bold;
+    color: #666;
+}
